@@ -64,6 +64,8 @@
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+build
+asset/*.mp3
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
@@ -71,3 +73,5 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!assets/*.png
+!assets/*.db
